@@ -1,6 +1,4 @@
 import imp
-
-
 import collections
 queue = collections.deque()
 queue.appendleft(10)
