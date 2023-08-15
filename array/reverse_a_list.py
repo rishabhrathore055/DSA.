@@ -6,4 +6,4 @@ def reverse(l1):
         f+=1
         l-=1
     return l1
-print(reverse([1,2,3,4,5]))
+print(reverse([1,2,2,3,4,4,5]))
