@@ -8,4 +8,4 @@ def stock(nums):
         maxprofit = max(maxprofit,profit)
     return maxprofit
 
-print(stock([3,1,4,8,7,2,5]))
+print(stock([1,5,3,8,12]))
