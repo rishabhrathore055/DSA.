@@ -9,7 +9,7 @@ def longestSubarry( nums):
         res = max(count,res)
     return count
 
-def longestSubarry( nums, N):
+def longestSubarry( nums):
     res = 0
     count = 0
     for n in nums:
