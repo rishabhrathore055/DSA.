@@ -30,7 +30,3 @@ while True:
     else:
         print("Enter the valid choice: ")
     
-
-
-
-
