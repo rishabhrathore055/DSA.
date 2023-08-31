@@ -6,6 +6,16 @@
 
 
 # Memoization - Reminder for myself
+# bottom up approach
+def Fibo(n):
+    fibTable = [0,1]
+    for i in range(2,n+1):
+        fibTable.append(fibTable[i-1]+fibTable[i-2])
+    return fibTable[n]
+
+print(Fibo(160))
+
+# Top Down approach
 def fib(n,memo = {}):
     if (n in memo) :return memo[n]
     if (n<=2):
