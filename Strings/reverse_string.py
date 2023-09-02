@@ -4,3 +4,6 @@ def Reverse(s):
         rev = char + rev
     return rev
 print(Reverse("Rishabh") )
+
+s1 = "Hello World"
+print(s1[::-1])
