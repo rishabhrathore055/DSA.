@@ -14,8 +14,9 @@ def howSum(targetSum,nums):
     if (targetSum <0): return None
     for num in nums:
         remainder = targetSum - num
-        remainderRemain =(howSum(remainder,nums))
-    if remainderRemain!=None:
-        return remainderRemain
+        remainderRemain =howSum(remainder,nums)
+        if remainderRemain is not None:
+            return remainderRemain + [num]
+    return None
 print(howSum(7,[2,3]))
-print(howSum(300,[2,3,5,6]))
+# print(howSum(300,[2,3,5,6]))
