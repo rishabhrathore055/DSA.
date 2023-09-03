@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/is-subsequence/
+
 # itrative solutions
 def isSubsequence(s1,s2):
     n = len(s1)
