@@ -12,12 +12,12 @@ print(leftmostchar("ABCDAC"))
 # Better approach
 def leftmostChar(s):
     count = {}
-    for i in range(len(s)):
-        if s[i] in count:
-            count[s[i]]+=1
+    for char in s:
+        if char in count:
+            count[char]+=1
         else:
-            count[s[i]] =1
-    for i in range(len(s)):
+            count[char] =1
+    for i in range(len(count)):
         if count[s[i]] > 1:
             return i
     return -1
