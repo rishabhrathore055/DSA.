@@ -148,3 +148,38 @@ C C C
 D D D D
 E E E E E
 ```
+[17.](17.py)
+```
+        A
+      B B B
+    C C C C C
+  D D D D D D D    
+E E E E E E E E E
+```
+[18.](18.py)
+```
+        A
+      A B C        
+    A B C D C      
+  A B C D E D C    
+A B C D E F E D C 
+```
+[19.](19.py)
+```
+E
+E D
+E D C
+E D C B
+E D C B A
+```
+[20.](20.py)
+```
+* * * * * * * *
+* * *     * * *
+* *         * *
+*             *
+*             *
+* *         * *
+* * *     * * *
+* * * * * * * *
+```

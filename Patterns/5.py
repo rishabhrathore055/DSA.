@@ -1,3 +1,4 @@
+# https://practice.geeksforgeeks.org/problems/triangle-pattern/1?
 """
 * * * * *
 * * * *

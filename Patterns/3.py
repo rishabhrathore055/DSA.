@@ -1,3 +1,4 @@
+# https://practice.geeksforgeeks.org/problems/triangle-number/1?
 """
 1
 1 2
