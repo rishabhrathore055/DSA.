@@ -7,4 +7,10 @@ def check_palindrome(st,s,e):
         return check_palindrome(st,s+1,e-1)
     return True
 
-print(check_palindrome("madam",0,4))
+def check_palin(i,s):
+    if i >= len(s)//2:
+        return True
+    if(s[i]!=s[len(s)-i-1]):
+        return False
+    return check_palin(i+1,s)
+print(check_palin(0,"madam",))
