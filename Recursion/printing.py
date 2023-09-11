@@ -4,4 +4,4 @@ def f(n):
     else:
         print("Hello")
         f(n-1)
-print(f(5))
+f(5)
