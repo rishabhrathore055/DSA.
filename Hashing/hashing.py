@@ -9,17 +9,6 @@
 # for jobs in domain:
 #     counts[jobs] = counts.get(jobs,0) + 1
 # print(counts)
-# Q1 - Write a program to count the number of times each word occurs in an array
-# arr = [2,7,9,31,7,8,9,2,7]
-# hmap = {}
-# for i in arr:
-#     if i in hmap:
-#         hmap[i]+=1
-#     else:
-#         hmap[i]=1
-# for k,v in hmap.items():
-#     print(k,v)
-# print(len(hmap))
 
 # Q2 - Write a program to displat the first non-repeating character in an array
 
