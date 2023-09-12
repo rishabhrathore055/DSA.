@@ -1,4 +1,5 @@
 # Hashing
+```Prestoring / fetching```
 
 ## Takes O(1)
 - Search
