@@ -8,4 +8,4 @@ def countOccurrences(nums):
             hmap[e] = 1
     for k,v in hmap.items():
         print(k,v)
-print(countOccurrences([1,1,2,3,2,3,1,4,4,5,6,5]))
+countOccurrences([1,1,2,3,2,3,1,4,4,5,6,5])
