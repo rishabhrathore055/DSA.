@@ -10,7 +10,7 @@ def selection_sort(nums,n): # O(n^2)
                 mini = j
         Swap(nums,mini,i)
     return nums
-print(selection_sort([113,13,12,32,13],5))
+print(selection_sort([113,13,12,32,13,25],6))
 
 
 
