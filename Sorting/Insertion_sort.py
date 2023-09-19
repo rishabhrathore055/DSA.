@@ -1,4 +1,4 @@
-# Take an element and place it in its current position
+# Take an element and place it in its correct position
 def insertion_Sort(nums,n): # O(n^2) Worst and best Time complexity is O(n)
     def Swap(nums,a,b):
         nums[a],nums[b] = nums[b],nums[a]
