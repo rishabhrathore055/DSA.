@@ -47,4 +47,4 @@ def merge(arr, s, m, e):
         j += 1
         k += 1
 
-print(mergeSort([3,12,2,42,2343,13,34],0,6))
+print(mergeSort([3,12,2,42,2343,13,34],0,6 ))

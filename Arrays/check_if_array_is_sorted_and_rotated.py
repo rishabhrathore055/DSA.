@@ -1,0 +1,16 @@
+# https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/4
+
+from typing import List
+class Solution:
+    def check(self, nums: List[int]) -> bool:
+        count = 0
+        n = len(nums)
+        for i in range(n):
+            if(nums[i]>nums[(i+1)%n]):
+                count+=1
+        if count>1:
+            return False
+        return True
+s = Solution()
+print(s.check([2,3,4,10]))
+    
